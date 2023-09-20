@@ -1,0 +1,21 @@
+
+body{
+    background-color: #565656;
+    color: rgb(69, 187, 226);
+    }
+
+    form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 1rem;
+    color: aqua;
+    border: none;
+    
+}
+
+
+h1{
+    font-size: xx-large;
+    font-weight: 700;
+}
