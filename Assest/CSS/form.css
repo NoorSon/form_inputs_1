@@ -44,10 +44,12 @@ form input:nth-child(n+4){
     color: var(--White);
     font-size: 1.1rem;
     cursor: pointer;
+   
 }
 form input:nth-child(n+4):hover{
     color:var(--knapper);
-    background-color:var(--darkgray);
+    background-color:var(--White);
+    transition: 400ms;
 }
 
 input::placeholder{
