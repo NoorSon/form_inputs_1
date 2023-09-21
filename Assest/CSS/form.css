@@ -1,0 +1,59 @@
+:root{
+    --black: #333;
+    --White: #eee;
+    --lightgray: #aaa;
+    --blue: #2892D0;
+    --darkgray:#313E45;
+    --knapper:#0185D1;
+    --background:#D7D8D8;
+}
+
+body{
+    font-family: sans-serif;
+    color: var(--darkgray);
+    background-color: var(--White);
+    font-weight: 300;
+}
+h1{
+    font-weight: 400;
+    color:var(--black);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.1rem;
+    padding: 0.5rem;
+    border: 2px solid var(--knapper);
+    border-radius: 0.6rem;
+}
+
+form input, form textarea{
+  color: var(--darkgray);
+  border: 2px solid var(--knapper);
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  background-color: var(--background);
+  transition: 450ms ease-in-out;  
+}
+form textarea{
+    resize: none;
+}
+form input:nth-child(n+4){
+    background-color: var(--knapper);
+    color: var(--White);
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+form input:nth-child(n+4):hover{
+    color:var(--knapper);
+    background-color:var(--darkgray);
+}
+
+input::placeholder{
+    color: var(--darkgray);
+}
+textarea::placeholder{
+    color: var(--darkgray);
+    font-family: sans-serif;
+}
