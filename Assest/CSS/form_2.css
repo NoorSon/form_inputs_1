@@ -1,0 +1,29 @@
+:root{
+    --black: #333;
+    --White: #eee;
+    --lightgray: #aaa;
+    --blue: #2892D0;
+    --darkgray:#313E45;
+    --knapper:#0185D1;
+    --background:#D7D8D8;
+}
+ body{
+    font-family: sans-serif;
+    font-weight: 300;
+    background-color: var(--White);
+    color: var(--black);
+ }
+ h1{
+    font-weight: 400;
+    color: var(--black);
+ }
+ h2{
+    font-weight: 400;
+    color: var(--black);
+ }
+
+ form{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+ }

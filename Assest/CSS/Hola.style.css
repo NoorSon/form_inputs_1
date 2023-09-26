@@ -1,21 +1,36 @@
+:root{
+    --blue:#67cdfcf1; 
+    --bacckground: #565656;
+    --blue2: #45bbe2;   
+}
+
+
 
 body{
     background-color: #565656;
-    color: rgb(69, 187, 226);
+    color: #45bbe2;
     }
 
     form{
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding-top: 1rem;
-    color: aqua;
+    color: #67cdfcf1;
     border: none;
+    font-weight: 900;
+    font-size: 3rem;
     
 }
 
 
 h1{
-    font-size: xx-large;
+    font-size: 4rem;
     font-weight: 700;
+}
+button:hover{
+transition: 450ms;
+background-color:var(--blue)
+}
+button{
+    border-radius: 0.6rem;
 }

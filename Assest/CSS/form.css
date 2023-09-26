@@ -1,11 +1,12 @@
 :root{
     --black: #333;
     --White: #eee;
-    --lightgray: #aaa;
+    --lightgray: #89e3ef;
     --blue: #2892D0;
     --darkgray:#313E45;
     --knapper:#0185D1;
     --background:#D7D8D8;
+    --checkbox:#0185d16f; 
 }
 
 body{
@@ -17,6 +18,10 @@ body{
 h1{
     font-weight: 400;
     color:var(--black);
+}
+h2{
+    font-weight: 400;
+    color: var(--black);
 }
 
 form{
@@ -58,4 +63,34 @@ input::placeholder{
 textarea::placeholder{
     color: var(--darkgray);
     font-family: sans-serif;
+}
+form fieldset{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+label{
+    background-color: var(--checkbox);
+    margin-bottom: 0.3rem;
+}
+header{ 
+    position: relative;
+   
+}
+header img{ 
+    display: block;
+    width: 100%;
+    padding-bottom: 1rem;
+}
+
+header h1{
+    position: absolute;
+    top: 10vw;
+    font-size: 5vw;
+    color: ;
+}
+header h2{
+    position: absolute;
+    top: 23vw;
+    font-size: 2vw;
 }

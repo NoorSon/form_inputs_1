@@ -7,14 +7,35 @@
     <link rel="stylesheet" href="Assest/CSS/form.css">
 </head>
 <body>
-    <h1>FORMS AND INPUTS IN HTML?</h1>
+    <header>
+        <h1>FORMS AND INPUTS</h1>
+        <h2>Inputs & Textarea In HTML</h2>
+        <img src="Assest/IMG/Bg-Image.png" alt="">
+    </header>
+   
+    
     <!-- FORMEN "HOPPER" TIL SIDEN INDEX.HTML! -HVIS INPUT TYPEN ER "SUBMIT" -->
-    <form action="">
+    <form action="hola.html">
         <input type="text" placeholder="Type Your Name">
-        <input type="text" placeholder="image">
-        <textarea rows="10" placeholder="Type Your Query"></textarea>
+        <input type="tel" placeholder="Type Your Email">
+        <input type="email" placeholder="Type Your Number">
+        <textarea rows="8" placeholder="Type Your Query:"></textarea>
         <input type="reset" value="Reset">
         <input type="submit" value="Submit">
+        <fieldset>
+            <label for="cbox">Tryk here</label>
+            <input type="checkbox" id="cbox">
+            <label for="cbox2">Eller Her</label>
+            <input type="checkbox" id="cbox2">
+            <label for="radioOne">Ring Til Mig Her</label>
+            <input type="radio" name="radioOne" id="radioOne">
+            <label for="radioTwo">La Vær Og Ring Til Mig</label>
+            <input type="radio" name="radioTwo" id="radioTwo">
+        </fieldset>
+        <fieldset>
+         <label for="cboxTerms">Accept Terms</label>
+         <input type="checkbox" id="cboxTerms">
+        </fieldset>
     </form>
 </body>
 </html>
