@@ -10,18 +10,20 @@
     <header>
         <h1>FORMS AND INPUTS</h1>
         <h2>Inputs & Textarea In HTML</h2>
-        <img src="Assest/IMG/Bg-Image.png" alt="">
+        <img src="Assest/IMG/Hero-bg.png" alt="">
     </header>
    
     
     <!-- FORMEN "HOPPER" TIL SIDEN INDEX.HTML! -HVIS INPUT TYPEN ER "SUBMIT" -->
     <form action="hola.html">
-        <input type="text" placeholder="Type Your Name">
-        <input type="tel" placeholder="Type Your Email">
-        <input type="email" placeholder="Type Your Number">
+        <input type="text" placeholder="Type Your Name" required pattern="[A-Za-z]{}">
+        <input type="tel" placeholder="Type Your Number" required pattern="[0-9]{8}">
+        <input type="email" placeholder="Type Your Email"required >
+        <input type="password" placeholder="Type Your Password" required>
         <textarea rows="8" placeholder="Type Your Query:"></textarea>
         <input type="reset" value="Reset">
         <input type="submit" value="Submit">
+        
         <fieldset>
             <label for="cbox">Tryk here</label>
             <input type="checkbox" id="cbox">

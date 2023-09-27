@@ -1,12 +1,15 @@
 :root{
     --black: #333;
     --White: #eee;
-    --lightgray: #89e3ef;
+    --lightblue: #98f0fc;
     --blue: #2892D0;
     --darkgray:#313E45;
     --knapper:#0185D1;
     --background:#D7D8D8;
     --checkbox:#0185d16f; 
+    --lightgrey:#eeeeee9d;
+    --red:#ff000022; 
+    
 }
 
 body{
@@ -44,14 +47,14 @@ form input, form textarea{
 form textarea{
     resize: none;
 }
-form input:nth-child(n+4){
+form input:nth-child(n+5){
     background-color: var(--knapper);
     color: var(--White);
     font-size: 1.1rem;
     cursor: pointer;
    
 }
-form input:nth-child(n+4):hover{
+form input:nth-child(n+5):hover{
     color:var(--knapper);
     background-color:var(--White);
     transition: 400ms;
@@ -87,10 +90,21 @@ header h1{
     position: absolute;
     top: 10vw;
     font-size: 5vw;
-    color: ;
+    color: var(--background);
 }
 header h2{
     position: absolute;
     top: 23vw;
     font-size: 2vw;
+    color: var(--background);
 }
+input[type=text]:invalid{
+    background-color: var(--red);
+}   
+input[type=tel]:invalid{
+    background-color:var(--red) ;
+}
+input[type=email]:invalid{
+    background-color: var(--red);
+}
+

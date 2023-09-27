@@ -7,23 +7,13 @@
     --knapper:#0185D1;
     --background:#D7D8D8;
 }
- body{
-    font-family: sans-serif;
-    font-weight: 300;
-    background-color: var(--White);
-    color: var(--black);
- }
- h1{
-    font-weight: 400;
-    color: var(--black);
- }
- h2{
-    font-weight: 400;
-    color: var(--black);
- }
 
- form{
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
- }
+dialog{
+
+}
+nav ul li a{
+   display: block;
+   margin-top: 0.5rem;
+   display: flex;
+   flex-direction: column;
+}
